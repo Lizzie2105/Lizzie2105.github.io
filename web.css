@@ -8,12 +8,12 @@ body, h1, h2, p, ul, li {
 /*Apply some basic styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+  background-color: #232946;
   color: #333;
 }
 
 header {
-  background-color: #333;
+  background-color: #fffffe;
   padding: 20px;
 }
 
