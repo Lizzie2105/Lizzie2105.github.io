@@ -1,32 +1,53 @@
 /* Reset some default browser styles */
-
 body, h1, h2, p, ul, li {
   margin: 0;
   padding: 0;
 }
 
-/*Apply some basic styles */
+/* Apply basic global styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #232946;
-  color: #333;
+  background-color: #232946;   /* main background */
+  color: #b8c1ec;               /* paragraph text */
 }
 
+/* Header */
 header {
-  background-color: #fffffe;
+  background-color: #fffffe;   /* headline background */
   padding: 20px;
 }
 
+h1, h2 {
+  color: #fffffe;              /* headline color */
+  font-weight: bold;
+}
+
 h1 {
-  color: #fff;
   font-size: 28px;
   margin-bottom: 10px;
 }
-nav ul{
-  list-style: none;
-}
-h2{
-  color: #fff;
+
+h2 {
   font-size: 20px;
   margin-bottom: 8px;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+}
+
+/* Buttons */
+button, .btn {
+  background-color: #eebbc3;   /* button */
+  color: #232946;              /* button text */
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover, .btn:hover {
+  opacity: 0.9;
 }
